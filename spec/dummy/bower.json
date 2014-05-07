@@ -1,0 +1,6 @@
+{
+  "name": "contest",
+  "dependencies": {
+    "select2": "~3.4.6"
+  }
+}
