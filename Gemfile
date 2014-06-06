@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+source 'https://Tx3zEy8nojpuh8JgTqUp@gem.fury.io/crux/'
 
 # Declare your gem's dependencies in active_admin_select2_filters.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and

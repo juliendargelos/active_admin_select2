@@ -24,6 +24,7 @@ PATH
 
 GEM
   remote: https://rubygems.org/
+  remote: https://Tx3zEy8nojpuh8JgTqUp@gem.fury.io/crux/
   specs:
     actionmailer (4.1.0)
       actionpack (= 4.1.0)
