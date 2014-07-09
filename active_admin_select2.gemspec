@@ -1,16 +1,16 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "active_admin_select2_filters/version"
+require "active_admin_select2/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "activeadmin_select2_filters"
+  s.name        = "activeadmin_select2"
   s.version     = ActiveAdminSelect2Filters::VERSION
   s.authors     = ["Julien Palmas"]
   s.email       = ["julien@palmas.me"]
-  s.homepage    = "http://www.cruxandco.com"
-  s.summary     = "Select2 active admin filters for associations"
+  s.homepage    = "http://www.crx.io"
+  s.summary     = "Select2 active admin filters and inputs for associations"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]

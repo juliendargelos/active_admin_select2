@@ -9,7 +9,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "active_admin_select2_filters"
+require "active_admin_select2"
 
 module Dummy
   class Application < Rails::Application

@@ -1,6 +1,6 @@
 require "activeadmin"
 
-module ActiveAdminSelect2Filters
+module ActiveAdminSelect2
   module DSL
 
     def select2_filter(attribute, options = {})
@@ -21,4 +21,4 @@ module ActiveAdminSelect2Filters
   end
 end
 
-ActiveAdmin::ResourceDSL.send :include, ActiveAdminSelect2Filters::DSL
+ActiveAdmin::ResourceDSL.send :include, ActiveAdminSelect2::DSL

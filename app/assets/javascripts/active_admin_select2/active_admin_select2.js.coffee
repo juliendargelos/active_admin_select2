@@ -1,4 +1,4 @@
-select2FilterOptions = (opts = {}) ->
+select2Options = (opts = {}) ->
 
   resultFormat = (data) ->
     eval opts.resultFormat
@@ -34,5 +34,5 @@ select2FilterOptions = (opts = {}) ->
 $ ->
   $('.select2-filter').parent().find('select').hide()
   $('.select2-filter, .select2-field').each (i, e) ->
-    options = select2FilterOptions $(e).data().select2Options
+    options = select2Options $(e).data().select2Options
     $(e).select2 options
