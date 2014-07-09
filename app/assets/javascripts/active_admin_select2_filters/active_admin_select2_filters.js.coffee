@@ -33,6 +33,6 @@ select2FilterOptions = (opts = {}) ->
 
 $ ->
   $('.select2-filter').parent().find('select').hide()
-  $('.select2-filter').each (i, e) ->
+  $('.select2-filter, .select2-field').each (i, e) ->
     options = select2FilterOptions $(e).data().select2Options
     $(e).select2 options
