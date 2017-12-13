@@ -1,3 +1,0 @@
-# ActiveAdminSelect2Filters
-
-This project rocks and uses MIT-LICENSE.
